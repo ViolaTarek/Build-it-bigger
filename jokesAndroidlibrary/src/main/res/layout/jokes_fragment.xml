@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jokes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JokesFragment"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/chandlerbing"
+        android:padding="@dimen/margin_text"
+        />
+    <TextView
+        android:id="@+id/joke_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JokesFragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="@dimen/margin_text"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size"
+        />
+
+</LinearLayout>
